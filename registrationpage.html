@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+</head>
+<body>
+	<strong><h1>Registration Page</h1></strong><hr>
+	<a href="index.html">Go to Home Page</a><br><br>
+
+	<form method="GET ">
+		First Name: <input type="text" name="fname"><br>
+		Last Name: <input type="text" name="lname"><br>
+		Phone/Cell Number: <input type="Number" name="pnumber"><br>
+		Birthdate: <input type="date" name="birthdate"><br>
+		eMail: <input type="email" name="email"><br>
+		Password: <input type="password" minlength="8" name="password"><br>
+		Gender: <br>
+		<input type="radio" name="Gender" value="Male">Male<br>
+		<input type="radio" name="Gender" value="Female">Female<br>
+		<input type="radio" name="Gender" value="Other">Other<br>
+		Position Desired: 
+		<select>
+			<option name="web" value="Front End" name="frontend">Front End</option>
+			<option name="web" value="Back End" name="backend">Back End</option>
+			<option name="web" value="Full Stack" name="fullstack">Full Stack</option>
+		</select><br>
+		<p>From time to time we need to reach out to you. What time of day can we call you?
+		<input type="checkbox" name="am">AM
+		<input type="checkbox"name="pm">PM </p><br>
+
+		<input type="submit" value="Register!">
+		<input type="reset">
+	</form>
+
+</body>
+</html>
+
+?
+fname=Rolando
+&lname=Ramirez
+&pnumber=7086542256
+&birthdate=2020-09-07
+&email=yugfg%40gmail.com
+&password=12345678
+&Gender=Male
+&web=Front+End
+&am=on&pm=on
