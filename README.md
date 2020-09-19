@@ -1,4 +1,5 @@
-#Static Website
+# Static Website
+
 Elaborate some of the html command
 
 
